@@ -77,5 +77,5 @@ curl http://server_name
 
 ## Autor
 
-Su nimi
+Aare-Aigar Kobar
 \`\`\`
