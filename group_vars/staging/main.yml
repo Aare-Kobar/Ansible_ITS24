@@ -1,0 +1,5 @@
+app_enviroment: "staging"
+site_color: "#FFFF00"
+server_name: staging.example.com
+nginx_port: 8080
+

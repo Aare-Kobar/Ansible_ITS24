@@ -2,12 +2,20 @@ all:
   children:
     webservers:
       children:
+
+        development:
+          hosts:
+            dev01:
+              ansible_connection: local
+
+        staging:
+          hosts:
+            staging-web:
+              ansible_host: localhost
+              ansible_connection: local
+
         production:
           hosts:
             web1:
               ansible_host: 10.0.25.21
               ansible_user: ansible
-        development:
-          hosts:
-            dev01:
-              ansible_connection: local
